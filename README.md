@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How to Take an Asp.Net MVC Web Site Down for Maintenance](https://www.simple-talk.com/dotnet/asp.net/how-to-take-an-asp.net-mvc-web-site-down-for-maintenance/)
+
+> Keeping a customer facing web site up and performing well is a challenge, especially when you are still adding new features. While providing an &ldquo;always on&rdquo; experience for users is preferred there are times when it is easier to take the site &ldquo;down for maintenance&rdquo; and fix those things that are just too difficult and costly to do with the site up. Jon Smith describes his solution to a controlled &ldquo;down for maintenance&rdquo; approach for ASP.NET MVC sites.
+
+Tags: `aspnet`, `mvc` 
+
+Fri Jan 29 13:38:51 2016 +0100
+
 ## [Announcing NuGet 3.1 with Support for Universal Windows Platform](http://blog.nuget.org/20150729/Introducing-nuget-uwp.html)
 
 > Today the NuGet team in collaboration with several other teams at Microsoft is happy to announce the release of a new version of the NuGet clients supporting the Universal Windows Platform and the new Portable class libraries. The NuGet tools are available through Tools&rarr;Extensions and Updates&rarr;Update tab in Visual Studio 2015 as well as from our [GitHub repository](https://github.com/nuget/home/releases). Additionally, we have released a new version of the NuGet command-line tool that you can download from [NuGet.org](http://dist.nuget.org/win-x86-commandline/v3.1.0-beta/nuget.exe).
