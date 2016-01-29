@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [The Tipping Point Query Answers](http://www.sqlskills.com/blogs/kimberly/the-tipping-point-query-answers/)
+
+> **What is the tipping point?** It's the point where the number of rows returned is "no longer selective enough". SQL Server chooses NOT to use the nonclustered index to look up the corresponding data rows and instead performs a table scan.
+
+Tags: `mssql`, `db`, `unread`
+
+Fri Jan 29 13:26:34 2016 +0100
+
 ## [R Programming Language - Introduction to R for C# Programmers](https://msdn.microsoft.com/en-us/magazine/Mt238409.aspx)
 
 > The R language is used by data scientists and programmers for statistical computing. In part because of the increasing amounts of data collected by software systems, and the need to analyze that data, R is one of the fastest-growing technologies among my colleagues who use C#. A familiarity with R can be a valuable addition to your technical skill set.
