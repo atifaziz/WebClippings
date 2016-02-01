@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [SQL Server and Node.js, BFFs For Life](http://nerdventure.io/sql-server-and-node-js/)
+
+> Recently, with the help of other reference implementations and documents, I was able to add NTLM authentication support to what I consider the best SQL lib for Node.js.
+
+Tags: `node`, `mssql`, `ntlm`
+
+Mon Feb 01 11:59:01 2016 +0100
+
 ## [ServiceWorker: Revolution of the Web Platform](https://ponyfoo.com/articles/serviceworker-revolution)
 
 > While not the most amusingly named feature of the web platform, everything seems to point at ServiceWorker being the **most significant addition** to the web platform since the introduction of *AJAX* – over 10 years ago. Not to be confused with WebWorker (*used to offload intense compute operations onto another execution thread*), ServiceWorker allows you to intercept (*and hijack*) network requests originating from your site before they’re even dispatched. This article explores how it works, what it means and what it enables, and how you can implement it by following a case study.
