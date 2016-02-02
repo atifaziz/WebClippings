@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Further Down the Rabbit Hole: PowerShell Modules and Encapsulation](https://www.simple-talk.com/dotnet/.net-tools/further-down-the-rabbit-hole-powershell-modules-and-encapsulation/)
+
+> Modules allow you to use standard libraries that extend PowerShell&rsquo;s functionality. They are easier to use than to create, but if you get the hang of creating them, your code will be more easily-maintained and re-usable. Let Michael Sorens once more be your guide through PowerShell&rsquo;s &lsquo;Alice in Wonderland&rsquo; world.
+
+Tags: `psh`
+
+Tue Feb 02 18:34:12 2016 +0100
+
 ## [SQL Server and Node.js, BFFs For Life](http://nerdventure.io/sql-server-and-node-js/)
 
 > Recently, with the help of other reference implementations and documents, I was able to add NTLM authentication support to what I consider the best SQL lib for Node.js.
