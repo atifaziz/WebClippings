@@ -10,6 +10,8 @@ Following is personal collection of mostly software-related articles and downloa
 
 Tags: `r`, `pdf`
 
+Fri Mar 04 17:50:07 2016 +0100
+
 ## [Cleaning Up After Migrating From Hg to Git](http://christoph.ruegg.name/blog/cleaning-up-after-migrating-from-hg-to-git.html)
 
 > There is a lot of guidance out there on how to migrate from Mercurial to Git, but they often leave you with a repository in a bad state. Even more so if it originally was a subversion repository, then migrated to Mercurial and now finally to Git.
