@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## Writing Safe Shell Scripts
+
+> Writing shell scripts leaves a lot of room to make mistakes, in ways that will cause your scripts to break on certain input, or (if some input is untrusted) open up security vulnerabilities. Here are some tips on how to make your shell scripts safer.
+
+Tags: `posix`, `bash`, `shell`
+
+Fri Mar 11 23:10:22 2016 +0100
+
 ## [FastRWeb: Fast Interactive Web Framework for Data Mining Using R](http://urbanek.info/research/pub/urbanek-iasc08.pdf)
 
 > Our basic goal is to fully leverage R and yet to allow users to interact with the system without the need to resort to the R language. &hellip; In this talk we will describe the various parts of the system ranging from the fast-response infrastructre, AJAX tools for on-demand data loading to R facilities for intuitive creation of web objects, plots and interactive graphics. We will illustrate the use of the framework on several examples, including our implementation of a real-world mining tool used in practice for exploratory data analysis and data mining in very large databases.
