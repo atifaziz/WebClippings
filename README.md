@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Publishing and Running ASP.NET Core Applications with IIS](https://weblog.west-wind.com/posts/2016/Jun/06/Publishing-and-Running-ASPNET-Core-Applications-with-IIS)
+
+> When you build ASP.NET Core applications and you plan on running your applications on IIS you'll find that the way that Core applications work in IIS is radically different than in previous versions of ASP.NET.
+
+> In this post I'll explain how ASP.NET Core runs in the context of IIS and how you can deploy your ASP.NET Core application to IIS.
+
+Tags: `aspnet`, `aspnet-core-1.0`, `iis`
+
+Fri Jun 10 13:05:28 2016 +0200
+
 ## Writing Safe Shell Scripts
 
 > Writing shell scripts leaves a lot of room to make mistakes, in ways that will cause your scripts to break on certain input, or (if some input is untrusted) open up security vulnerabilities. Here are some tips on how to make your shell scripts safer.
