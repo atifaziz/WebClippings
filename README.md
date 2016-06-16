@@ -1,8 +1,16 @@
-# Web Clippings
+﻿# Web Clippings
 
 Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped from a newspaper or magazine.
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
+
+## [PowerShell One-Liners: Collections, Hashtables, Arrays and Strings](https://www.simple-talk.com/sysadmin/powershell/powershell-one-liners--collections,-hashtables,-arrays-and-strings/)
+
+> The way to learn PowerShell is to browse and nibble, rather than to sit down to a formal five-course meal. In his continuing series on Powershell one-liners, Michael Sorens provides Fast Food for busy professionals who want results quickly and aren't too faddy. Part 3 has as its tasty confections  Collections, Hashtables, arrays and strings.
+
+Tags: `powershell`
+
+Thu Jun 16 11:33:53 2016 +0200
 
 ## [Publishing and Running ASP.NET Core Applications with IIS](https://weblog.west-wind.com/posts/2016/Jun/06/Publishing-and-Running-ASPNET-Core-Applications-with-IIS)
 
