@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Installing R packages without admin rights on MS Windows](http://www.magesblog.com/2012/04/installing-r-packages-without-admin.html)
+
+> The other day I ended up in front of a Windows PC with R installed, but a locked down `"C:\Programme Files"` folder. That ment that R couldn't install any packages into the default directory `"C:\Programme Files\R\R-X.Y.Z\library"` (replace `R-X.Y.Z` with the version number of R installed). 
+>
+> Never-mind, there is an option for that, the libs argument in the install.packages function.
+
+Tags: `windows`, `r`, `admin`
+
+Fri Jun 17 10:50:26 2016 +0200
+
 ## [Running C# scripts and snippets in Visual Studio Code with scriptcs](http://www.strathweb.com/2015/11/running-c-scripts-and-snippets-in-visual-studio-code-with-scriptcs/)
 
 > Visual Studio Code can also now be extended via plugins – and when that was announced, I thought why not make something for scriptcs? There already is a scriptcs plugin for Sublime Text and for Atom, so it only makes sense to have one for Visual Studio Code.
