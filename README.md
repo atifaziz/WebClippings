@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Running C# scripts and snippets in Visual Studio Code with scriptcs](http://www.strathweb.com/2015/11/running-c-scripts-and-snippets-in-visual-studio-code-with-scriptcs/)
+
+> Visual Studio Code can also now be extended via plugins – and when that was announced, I thought why not make something for scriptcs? There already is a scriptcs plugin for Sublime Text and for Atom, so it only makes sense to have one for Visual Studio Code.
+
+Tags: `c#`, `csx`, `vscode`
+
+Fri Jun 17 10:48:58 2016 +0200
+
 ## [PowerShell One-Liners: Collections, Hashtables, Arrays and Strings](https://www.simple-talk.com/sysadmin/powershell/powershell-one-liners--collections,-hashtables,-arrays-and-strings/)
 
 > The way to learn PowerShell is to browse and nibble, rather than to sit down to a formal five-course meal. In his continuing series on Powershell one-liners, Michael Sorens provides Fast Food for busy professionals who want results quickly and aren't too faddy. Part 3 has as its tasty confections  Collections, Hashtables, arrays and strings.
