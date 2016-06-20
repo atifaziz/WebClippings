@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Handling AggregateExceptions](https://colinmackay.scot/2011/05/17/handling-aggregateexceptions/)
+
+> AggregateException has a `Handle` method that takes a delegate of `Func<Exception, bool>` i.e. It takes an Exception as a parameter and returns a `bool`. The return value indicates whether the function handled the exception or not.
+
+Tags: `.net`, `tpl`
+
+Mon Jun 20 09:11:42 2016 +0200
+
 ## [Installing R packages without admin rights on MS Windows](http://www.magesblog.com/2012/04/installing-r-packages-without-admin.html)
 
 > The other day I ended up in front of a Windows PC with R installed, but a locked down `"C:\Programme Files"` folder. That ment that R couldn't install any packages into the default directory `"C:\Programme Files\R\R-X.Y.Z\library"` (replace `R-X.Y.Z` with the version number of R installed). 
