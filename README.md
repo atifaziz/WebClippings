@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
+
+> This is a tale of two approaches to regular expression matching. One of them is in widespread use in the standard interpreters for many languages, including Perl. The other is used only in a few places, notably most implementations of awk and grep. The two approaches have wildly different performance characteristics
+
+Tags: `regex`, `performance`, `unread`
+
+Wed Jun 22 18:03:18 2016 +0200
+
 ## [.NET Framework 4.6 list of changes](https://dotnet2015.blob.core.windows.net/changes/dotnet46-changes.txt)
 
 > .NET Framework 4.6 contains hundreds of bug fixes and improvements.
