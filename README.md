@@ -4,6 +4,23 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [What's New in the .NET Framework](https://msdn.microsoft.com/library/ms171868.aspx)
+
+> This article summarizes key new features and improvements in the following versions of the .NET Framework:
+>
+> - .NET Framework 4.6.2 Preview
+> - .NET Framework 4.6.1
+> - .NET 2015 and .NET Framework 4.6
+> - .NET Framework 4.5.2
+> - .NET Framework 4.5.1
+> - .NET Framework 4.5
+> 
+> This article does not provide comprehensive information about each new feature and is subject to change. 
+
+Tags: `.net`
+
+Wed Jun 22 13:49:07 2016 +0200
+
 ## [Console Virtual Terminal Sequences](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)
 
 >  Virtual terminal sequences are control character sequences that can control cursor movement, color/font mode, and other operations.
