@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Console Virtual Terminal Sequences](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)
+
+>  Virtual terminal sequences are control character sequences that can control cursor movement, color/font mode, and other operations.
+>
+> More information about terminal sequences can be found at [http://vt100.net](http://vt100.net).
+
+Tags: `windows`
+
+Wed Jun 22 09:18:53 2016 +0200
+
 ## [Handling AggregateExceptions](https://colinmackay.scot/2011/05/17/handling-aggregateexceptions/)
 
 > AggregateException has a `Handle` method that takes a delegate of `Func<Exception, bool>` i.e. It takes an Exception as a parameter and returns a `bool`. The return value indicates whether the function handled the exception or not.
