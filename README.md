@@ -9,6 +9,8 @@ Following is personal collection of mostly software-related articles and downloa
 > .NET Framework 4.6 contains hundreds of bug fixes and improvements.
 > This list details those changes, grouped by feature area.
 > Each change includes our TFS bug numbers at the end of the line.
+>
+> See also: [diff_net452_net46.html](https://dotnet2015.blob.core.windows.net/changes/diff_net452_net46.html)
 
 Tags: `.net`
 
