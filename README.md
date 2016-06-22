@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [.NET Framework 4.6 list of changes](https://dotnet2015.blob.core.windows.net/changes/dotnet46-changes.txt)
+
+> .NET Framework 4.6 contains hundreds of bug fixes and improvements.
+> This list details those changes, grouped by feature area.
+> Each change includes our TFS bug numbers at the end of the line.
+
+Tags: `.net`
+
+Wed Jun 22 13:57:15 2016 +0200
+
 ## [What's New in the .NET Framework](https://msdn.microsoft.com/library/ms171868.aspx)
 
 > This article summarizes key new features and improvements in the following versions of the .NET Framework:
