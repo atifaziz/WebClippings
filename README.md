@@ -58,7 +58,7 @@ Tags: `aspnet`, `aspnet-core-1.0`, `iis`
 
 Fri Jun 10 13:05:28 2016 +0200
 
-## Writing Safe Shell Scripts
+## [Writing Safe Shell Scripts](https://sipb.mit.edu/doc/safe-shell/  )
 
 > Writing shell scripts leaves a lot of room to make mistakes, in ways that will cause your scripts to break on certain input, or (if some input is untrusted) open up security vulnerabilities. Here are some tips on how to make your shell scripts safer.
 
