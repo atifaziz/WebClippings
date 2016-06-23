@@ -4,6 +4,19 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [TA-Lib : Technical Analysis Library](http://www.ta-lib.org/)
+
+> Multi-Platform Tools for Market Analysis&hellip;
+> - TA-Lib is widely used by trading software developers requiring to perform technical analysis of financial market data.
+> - Includes 200 indicators such as ADX, MACD, RSI, Stochastic, Bollinger Bands etc&hellip; ([more info](http://www.ta-lib.org/function.html))
+> - Candlestick pattern recognition
+>
+> Open-source API for C/C++, Java, Perl, Python and 100% Managed .NET
+
+Tags: `ta`, `trading`, `library`
+
+Thu Jun 23 11:38:16 2016 +0200
+
 ## [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
 
 > This is a tale of two approaches to regular expression matching. One of them is in widespread use in the standard interpreters for many languages, including Perl. The other is used only in a few places, notably most implementations of awk and grep. The two approaches have wildly different performance characteristics
