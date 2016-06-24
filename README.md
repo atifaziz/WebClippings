@@ -4,6 +4,19 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Disabling User Account Control (UAC) on Windows Server](https://support.microsoft.com/en-gb/kb/2526083)
+
+> Under certain constrained circumstances, disabling User Account Control (UAC) on Windows Server can be an acceptable and recommended practice. These circumstances occur only when all the following conditions are true:
+>
+> - Only administrators are allowed to log on to the Windows-based server interactively at the console or by using Remote Desktop Services.
+> - Administrators log on to the Windows-based server only to perform legitimate system administrative functions on the server.
+>
+> If either of these conditions is not true, UAC should remain enabled.
+
+Tags: `windows`, `admin`, `security`, `mskb`
+
+Fri Jun 24 14:25:57 2016 +0200
+
 ## [TA-Lib : Technical Analysis Library](http://www.ta-lib.org/)
 
 > Multi-Platform Tools for Market Analysis&hellip;
