@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [`LogonUser` + `LOGON32_LOGON_NEW_CREDENTIALS`, What is this flag used for?](https://blogs.msdn.microsoft.com/winsdk/2015/08/25/logonuser-logon32_logon_new_credentials-what-is-this-flag-used-for/)
+
+> Impersonation becomes really important in a scenario where you are attempting to access a server which has no trust with your system since you can’t modify the permissions for the remote secured resource to allow your user access. In the past, this was done by providing alternate credentials to the `IPC$` share with `WNetAddConnection2()`. Using `IPC$` kind of stopped working in Windows VISTA for certain scenarios but a lot of developers today are still unaware of the changes. Due to the limitations and scenarios where it doesn’t work, a new flag was introduced in Windows VISTA for `LogonUser()`, `LOGON32_LOGON_NEW_CREDENTIALS` to address the weaknesses for this common scenario. 
+
+Tags: `windows`, `admin`, `security`
+
+Fri Jun 24 16:24:50 2016 +0200
+
 ## [Disabling User Account Control (UAC) on Windows Server](https://support.microsoft.com/en-gb/kb/2526083)
 
 > Under certain constrained circumstances, disabling User Account Control (UAC) on Windows Server can be an acceptable and recommended practice. These circumstances occur only when all the following conditions are true:
