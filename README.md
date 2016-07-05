@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How the dotnet CLI tooling runs your code](http://mattwarren.org/2016/07/04/How-the-dotnet-CLI-tooling-runs-your-code/)
+
+> …It’s the `dotnet` CLI (Command Line Interface) tooling that is the focus of this post and more specifically how it actually runs your code
+
+Tags: `dotnet`, `.net`
+
+Tue Jul 05 22:49:46 2016 +0200
+
 ## [Date & Time Formats on the Web](https://www.hackcraft.net/web/datetime/)
 
 > There are several different formats used in different places in the technologies of the World Wide Web to represent dates, times and date/time combinations (hereafter collectively referred to as “datetimes” unless a distinction has to be made). This document presents a survey of the most significant, details which formats are mandated by the key technologies of the web, and offers advice for deciding what formats you should use in your own web applications.
