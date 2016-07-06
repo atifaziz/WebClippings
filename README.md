@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [ConvertFrom-String: Example-based text parsing](https://blogs.msdn.microsoft.com/powershell/2014/10/31/convertfrom-string-example-based-text-parsing/)
+
+> `ConvertFrom-String` lets you parse a file by providing a template that contains examples of the desired output data rather than by writing a (potentially complex) script.
+
+Tags: `powershell`
+
+Wed Jul 06 11:23:13 2016 +0200
+
 ## [How the dotnet CLI tooling runs your code](http://mattwarren.org/2016/07/04/How-the-dotnet-CLI-tooling-runs-your-code/)
 
 > …It’s the `dotnet` CLI (Command Line Interface) tooling that is the focus of this post and more specifically how it actually runs your code
