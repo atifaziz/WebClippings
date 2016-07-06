@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [The RAppArmor Package: Enforcing Security Policies in R Using Dynamic Sandboxing on Linux](https://www.jstatsoft.org/article/view/v055i07)
+
+> 	The increasing availability of cloud computing and scientific super computers brings great potential for making R accessible through public or shared resources. This allows us to efficiently run code requiring lots of cycles and memory, or embed R functionality into, e.g., systems and web services. However some important security concerns need to be addressed before this can be put in production. The prime use case in the design of R has always been a single statistician running R on the local machine through the interactive console. Therefore the execution environment of R is entirely unrestricted, which could result in malicious behavior or excessive use of hardware resources in a shared environment. Properly securing an R process turns out to be a complex problem. We describe various approaches and illustrate potential issues using some of our personal experiences in hosting public web services. Finally we introduce the RAppArmor package: a Linux based reference implementation for dynamic sandboxing in R on the level of the operating system.
+
+Tags: `r`, `security`
+
+Wed Jul 06 11:32:21 2016 +0200
+
 ## [ConvertFrom-String: Example-based text parsing](https://blogs.msdn.microsoft.com/powershell/2014/10/31/convertfrom-string-example-based-text-parsing/)
 
 > `ConvertFrom-String` lets you parse a file by providing a template that contains examples of the desired output data rather than by writing a (potentially complex) script.
