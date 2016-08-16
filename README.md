@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Singleton HttpClient? Beware of this serious behaviour and how to fix it](http://byterot.blogspot.co.uk/2016/07/singleton-httpclient-dns.html)
+
+> Using singleton `HttpClient` results in your instance not to honour DNS changes which can have serious implications. The solution is to set the `ConnectionLeaseTimeout` of the `ServicePoint` object for the endpoint.
+
+Tags: `.net`, `http`
+
+Tue Aug 16 13:37:23 2016 +0200
+
 ## [Google’s QUIC protocol: moving the web from TCP to UDP](https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/)
 
 > The QUIC protocol (Quick UDP Internet Connections) is an entirely new protocol for the web developed on top of UDP instead of TCP.
