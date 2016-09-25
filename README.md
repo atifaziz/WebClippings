@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Classes for the Masses (Extended Abstract)](http://www.mlworkshop.org/2016-7.pdf)
+
+> Type classes are an immensely popular and productive feature of Haskell. They have since been adopted in, and adapted to, numerous other languages, including theorem provers. We show that type classes have a natural and efficient representation in .NET that paves the way for the extension of F#, C# and other .NET languages with type classes. Our encoding is type preserving and promises easy and safe cross-language inter-operation. We have extended the open source C# compiler and language service, Roslyn, with pervasive support for type classes and have prototyped a more minimalist design for F#.
+
+Tags: `c#`, `f#`, `haskell`
+
+Sun Sep 25 10:51:02 2016 +0200
+
 ## [Singleton HttpClient? Beware of this serious behaviour and how to fix it](http://byterot.blogspot.co.uk/2016/07/singleton-httpclient-dns.html)
 
 > Using singleton `HttpClient` results in your instance not to honour DNS changes which can have serious implications. The solution is to set the `ConnectionLeaseTimeout` of the `ServicePoint` object for the endpoint.
