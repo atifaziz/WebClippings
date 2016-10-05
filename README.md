@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Understanding LINQ to Objects (7) Interactive Extensions (Ix)](https://weblogs.asp.net/dixin/understanding-linq-to-objects-7-interactive-extensions-ix)
+
+> Besides those built-in query methods (aka standard query operators) provided by `System.Linq.Enumerable`, Microsoft also offer another set of query methods through a library called [Interactive Extensions (Ix)](https://github.com/Reactive-Extensions/Rx.NET). The library can be [installed from nuget](https://www.nuget.org/packages/Ix-Main/)…There is no document for this library provided from Microsoft, except the library’s XML comments. These query methods will be explained by either examples and/or their implementation, whichever can be more intuitive.
+
+Tags: `linq`
+
+Wed Oct 05 08:28:43 2016 +0200
+
 ## [Classes for the Masses (Extended Abstract)](http://www.mlworkshop.org/2016-7.pdf)
 
 > Type classes are an immensely popular and productive feature of Haskell. They have since been adopted in, and adapted to, numerous other languages, including theorem provers. We show that type classes have a natural and efficient representation in .NET that paves the way for the extension of F#, C# and other .NET languages with type classes. Our encoding is type preserving and promises easy and safe cross-language inter-operation. We have extended the open source C# compiler and language service, Roslyn, with pervasive support for type classes and have prototyped a more minimalist design for F#.
