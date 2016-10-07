@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Lesser known Git commands](https://hackernoon.com/lesser-known-git-commands-151a1918a60#.y5flrkwnw)
+
+> Git has a strong commitment to backwards compatibility: many powerful features are hidden behind options rather than exposed as default behaviour. Fortunately Git also supports _aliases_, so you can create your own commands that do all manner of Git magic. Here’s a selection of the more useful (or at least entertaining) aliases defined in my `.gitconfig`.
+
+Tags: `git`
+
+Fri Oct 07 23:54:02 2016 +0200
+
 ## [Understanding LINQ to Objects (7) Interactive Extensions (Ix)](https://weblogs.asp.net/dixin/understanding-linq-to-objects-7-interactive-extensions-ix)
 
 > Besides those built-in query methods (aka standard query operators) provided by `System.Linq.Enumerable`, Microsoft also offer another set of query methods through a library called [Interactive Extensions (Ix)](https://github.com/Reactive-Extensions/Rx.NET). The library can be [installed from nuget](https://www.nuget.org/packages/Ix-Main/)…There is no document for this library provided from Microsoft, except the library’s XML comments. These query methods will be explained by either examples and/or their implementation, whichever can be more intuitive.
