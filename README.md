@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [You're Using HttpClient Wrong and it is Destabilizing Your Software](http://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/) ##
+
+> I've been using `HttpClient` wrong for years and it finally came back to bite me. My site was unstable and my clients furious, with a simple fix performance improved greatly and the instability disapeared.
+
+Tags: `http`, `.net`
+
+Wed Oct 26 12:07:08 2016 +0200
+
 ## [Lesser known Git commands](https://hackernoon.com/lesser-known-git-commands-151a1918a60#.y5flrkwnw)
 
 > Git has a strong commitment to backwards compatibility: many powerful features are hidden behind options rather than exposed as default behaviour. Fortunately Git also supports _aliases_, so you can create your own commands that do all manner of Git magic. Here’s a selection of the more useful (or at least entertaining) aliases defined in my `.gitconfig`.
