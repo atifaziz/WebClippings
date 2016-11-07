@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [UTF-8 Everywhere (Manifesto)](http://utf8everywhere.org/)
+
+> Our goal is to promote usage and support of the UTF-8 encoding and to convince that it should be the default choice of encoding for storing text strings in memory or on disk, for communication and all other uses. We believe that our approach improves performance, reduces complexity of software and helps prevent many Unicode-related bugs. We suggest that other encodings of Unicode (or text, in general) belong to rare edge-cases of optimization and should be avoided by mainstream users.
+
+Tags: `text`, `unicode`
+
+Mon Nov 07 09:43:08 2016 +0100
+
 ## [You're Using HttpClient Wrong and it is Destabilizing Your Software](http://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/) ##
 
 > I've been using `HttpClient` wrong for years and it finally came back to bite me. My site was unstable and my clients furious, with a simple fix performance improved greatly and the instability disapeared.
