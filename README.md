@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+# [Asynchronous Programming with the Reactive Framework and the Task Parallel Library&mdash;Part 3](http://bvanderveen.com/a/async-with-rx-and-the-tpl-part-3)
+
+> Both the Reactive Framework and the Task Parallel Library define their own concept of a scheduler. A scheduler is like a gatekeeper to the CPU. Schedulers expose a method which allows outside code to provide a piece of work which should be performed. In many scheduler implementations, the piece of work is put into a queue, and the scheduler performs the work at some point in the future. The thread on which the work is performed and when is decided by the scheduler, and is important to consider if you're writing a program with a user interface, or if you're writing a server which manages special worker threads.
+
+Tags: `tpl`, `rx`, `threading`
+
+Fri Dec 02 11:47:03 2016 +0100
+
 ## [UTF-8 Everywhere (Manifesto)](http://utf8everywhere.org/)
 
 > Our goal is to promote usage and support of the UTF-8 encoding and to convince that it should be the default choice of encoding for storing text strings in memory or on disk, for communication and all other uses. We believe that our approach improves performance, reduces complexity of software and helps prevent many Unicode-related bugs. We suggest that other encodings of Unicode (or text, in general) belong to rare edge-cases of optimization and should be avoided by mainstream users.
