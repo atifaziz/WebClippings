@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Implementing, and Understanding Type Classes](http://okmij.org/ftp/Computation/typeclass.html)
+
+> Computational abstractions&mdash;higher-order functions, continuations, modules, processes, automatic memory management&mdash;have made programs much faster to write, easier to show correct and to reuse. And yet there is, often subconscious, resistance to abstractions: they appear ritualistic, formal&mdash;too abstract. One gets the feeling of getting lost. To overcome the mistrust for an abstraction it may help to look at its realization, to see what is being abstracted away. The awareness of low-level implementation details brings the appreciation of an abstraction and the intuitive explanation for it.
+
+Tags: `haskell`, `ocaml`
+
+Mon Dec 12 08:40:08 2016 +0100
+
 ## [Asynchronous Programming with the Reactive Framework and the Task Parallel Library&mdash;Part 3](http://bvanderveen.com/a/async-with-rx-and-the-tpl-part-3)
 
 > Both the Reactive Framework and the Task Parallel Library define their own concept of a scheduler. A scheduler is like a gatekeeper to the CPU. Schedulers expose a method which allows outside code to provide a piece of work which should be performed. In many scheduler implementations, the piece of work is put into a queue, and the scheduler performs the work at some point in the future. The thread on which the work is performed and when is decided by the scheduler, and is important to consider if you're writing a program with a user interface, or if you're writing a server which manages special worker threads.
