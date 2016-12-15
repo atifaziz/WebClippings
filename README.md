@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Portable PDB](https://github.com/dotnet/core/blob/v1.1.0-preview1/Documentation/diagnostics/portable_pdb.md)
+
+> .NET Core introduces a new symbol file (PDB) format - portable PDBs. Unlike traditional PDBs which are Windows-only, portable PDBs can be created and read on all platforms.
+
+Tags: `debugging`, `pdb`
+
+Thu Dec 15 09:53:42 2016 +0100
+
 ## [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/index.html)
 
 > This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction…all the while sneaking in little nuggets of UNIX&reg; wisdom and lore. It serves as a textbook, a manual for self-study, and as a reference and source of knowledge on shell scripting techniques. The exercises and heavily-commented examples invite active reader participation, under the premise that the only way to really learn scripting is to write scripts.
