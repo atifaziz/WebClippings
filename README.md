@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How do I determine the location of my script? I want to read some config files from the same place.](http://mywiki.wooledge.org/BashFAQ/028)
+
+> There are two prime reasons why this issue comes up: either you want to externalize data or configuration of your script and need a way to find these external resources, or your script is intended to act upon a bundle of some sort (eg. a build script), and needs to find the resources to act upon. 
+
+> It is important to realize that in the general case, this problem has no solution. Any approach you might have heard of, and any approach that will be detailed below, has flaws and will only work in specific cases. First and foremost, try to avoid the problem entirely by not depending on the location of your script! 
+
+Tags: `bash`
+
+Thu Dec 15 08:22:20 2016 +0100
+
 ## [Implementing, and Understanding Type Classes](http://okmij.org/ftp/Computation/typeclass.html)
 
 > Computational abstractions&mdash;higher-order functions, continuations, modules, processes, automatic memory management&mdash;have made programs much faster to write, easier to show correct and to reuse. And yet there is, often subconscious, resistance to abstractions: they appear ritualistic, formal&mdash;too abstract. One gets the feeling of getting lost. To overcome the mistrust for an abstraction it may help to look at its realization, to see what is being abstracted away. The awareness of low-level implementation details brings the appreciation of an abstraction and the intuitive explanation for it.
