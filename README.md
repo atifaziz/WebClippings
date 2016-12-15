@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Samples for Parallel Programming with the .NET Framework](https://code.msdn.microsoft.com/Samples-for-Parallel-b4b76364)
+
+> This project provides samples and extensions for the parallel programming support in the .NET Framework.
+
+See also [Parallel Extensions Extras NuGet package](https://www.nuget.org/packages/MSFT.ParallelExtensionsExtras/).
+
+Tags: `tpl`, `parallel`, `concurrency`, `plinq`, `sample`
+
+Thu Dec 15 18:43:13 2016 +0100
+
 ## [The Myth of the Full-stack Developer](http://andyshora.com/full-stack-developers.html)
 
 > - &ldquo;Full-stack.&rdquo;
