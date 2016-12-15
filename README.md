@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/index.html)
+
+> This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction…all the while sneaking in little nuggets of UNIX&reg; wisdom and lore. It serves as a textbook, a manual for self-study, and as a reference and source of knowledge on shell scripting techniques. The exercises and heavily-commented examples invite active reader participation, under the premise that the only way to really learn scripting is to write scripts.
+
+Tags: `bash`, `book`
+
+Thu Dec 15 08:24:55 2016 +0100
+
 ## [How do I determine the location of my script? I want to read some config files from the same place.](http://mywiki.wooledge.org/BashFAQ/028)
 
 > There are two prime reasons why this issue comes up: either you want to externalize data or configuration of your script and need a way to find these external resources, or your script is intended to act upon a bundle of some sort (eg. a build script), and needs to find the resources to act upon. 
