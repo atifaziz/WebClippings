@@ -4,6 +4,22 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [The Myth of the Full-stack Developer](http://andyshora.com/full-stack-developers.html)
+
+> - &ldquo;Full-stack.&rdquo;
+> - Full-stack used to mean less layers.
+> - Identifying mastery
+> - How skilled are you in each discipline?
+> - The skill of acquiring new skills
+> - Why I'm not a full-stack developer
+> - Some people are willing to have a go at everything
+> - The employability of a true full-stack developer: HIGH.
+> - Please harass me in the comments
+
+Tags: `opinion`
+
+Thu Dec 15 09:56:02 2016 +0100
+
 ## [Portable PDB](https://github.com/dotnet/core/blob/v1.1.0-preview1/Documentation/diagnostics/portable_pdb.md)
 
 > .NET Core introduces a new symbol file (PDB) format - portable PDBs. Unlike traditional PDBs which are Windows-only, portable PDBs can be created and read on all platforms.
