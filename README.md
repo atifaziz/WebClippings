@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How do I see what the JIT compiled, anyway?](http://mikedimmick.blogspot.ch/2008/03/how-do-i-see-what-jit-compiled-anyway.html)
+
+> You use the SOS debugger extension's `!U` command.
+
+Tags: `jit`, `asm`, `debugging`
+
+Wed Jan 11 17:02:17 2017 +0100
+
 ## [Samples for Parallel Programming with the .NET Framework](https://code.msdn.microsoft.com/Samples-for-Parallel-b4b76364)
 
 > This project provides samples and extensions for the parallel programming support in the .NET Framework.
