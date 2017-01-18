@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Low latency, large working set, and GHC’s garbage collector: pick two of three](https://blog.pusher.com/latency-working-set-ghc-gc-pick-two/)
+
+> Pusher makes it easy for developers to reliably deliver data at scale. A few features we are working on required a rewrite of our internal message bus, but we knew anything we build has to perform as reliably as the existing platform. Our chosen language for this job was Haskell, compiled with GHC. Haskell, unusually obsessed with correctness, was a good choice for our focus on reliability. GHC was a good choice as a compiler with a reputation for good performance. But our performance tests showed that our new implementation had performance problems. It suffered from high worst-case latency: the time between sending and receiving a message could be in the hundreds of milliseconds.
+
+> This blog post documents our investigation of these latency problems. Our findings have some implications for designing similar systems using GHC.
+
+Tags: `gc`, `haskell`
+
+Wed Jan 18 10:11:51 2017 +0100
+
 ## [How do I see what the JIT compiled, anyway?](http://mikedimmick.blogspot.ch/2008/03/how-do-i-see-what-jit-compiled-anyway.html)
 
 > You use the SOS debugger extension's `!U` command.
