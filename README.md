@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Amazon Web Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english)
+ 
+> Hey, have you heard of the new AWS services: ContainerCache, ElastiCast and QR72? Of course not, I just made those up.
+
+> But with 50 plus opaquely named services, we decided that enough was enough and that some plain english descriptions were needed.
+
+Tags: `aws`
+
+Mon Jan 30 11:16:38 2017 +0100
+
 ## [Low latency, large working set, and GHC’s garbage collector: pick two of three](https://blog.pusher.com/latency-working-set-ghc-gc-pick-two/)
 
 > Pusher makes it easy for developers to reliably deliver data at scale. A few features we are working on required a rewrite of our internal message bus, but we knew anything we build has to perform as reliably as the existing platform. Our chosen language for this job was Haskell, compiled with GHC. Haskell, unusually obsessed with correctness, was a good choice for our focus on reliability. GHC was a good choice as a compiler with a reputation for good performance. But our performance tests showed that our new implementation had performance problems. It suffered from high worst-case latency: the time between sending and receiving a message could be in the hundreds of milliseconds.
