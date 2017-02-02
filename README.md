@@ -4,6 +4,15 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Ad-hoc Polymorphism in F# (how to survive without Type Classes)](http://withouttheloop.com/articles/2014-10-21-fsharp-adhoc-polymorphism/)
+
+> A recurring source of confusion for me when reading about and writing F# has been ad-hoc polymorphism, and it seems that I am not the only one:
+>> &ldquo;F# does not have support for type-classes, or for multi-methods, or anything in between and while you can do certain tricks to achieve such an effect, like passing around a global virtual table, truth is F#&rsquo;s ad-hoc polymorphic capabilities really suck.&rdquo;
+
+Tags: `f#`, `polymorphism`
+
+Thu Feb 02 08:00:49 2017 +0100
+
 ## [Amazon Web Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english)
  
 > Hey, have you heard of the new AWS services: ContainerCache, ElastiCast and QR72? Of course not, I just made those up.
