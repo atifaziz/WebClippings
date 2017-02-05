@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [The TTY demystified](http://www.linusakesson.net/programming/tty/)
+
+> The TTY subsystem is central to the design of Linux, and UNIX in general. Unfortunately, its importance is often overlooked, and it is difficult to find good introductory articles about it. I believe that a basic understanding of TTYs in Linux is essential for the developer and the advanced user.
+
+Tags: `unix`, `linux`, `tty`
+
+Sun Feb 05 15:56:39 2017 +0100
+
 ## [Ad-hoc Polymorphism in F# (how to survive without Type Classes)](http://withouttheloop.com/articles/2014-10-21-fsharp-adhoc-polymorphism/)
 
 > A recurring source of confusion for me when reading about and writing F# has been ad-hoc polymorphism, and it seems that I am not the only one:
