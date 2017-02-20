@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [getline.cs update: Partying like it is 1992](http://tirania.org/blog/archive/2016/Jan-14.html)
+
+> Back in 2008, I wrote about `getline.cs`, a single-file command line editor for shell application. It included Emacs key bindings, history, customizable completion and incremental search. It is equivalent to GNU's readline library, except it is implemented in a [single C# file](https://github.com/mono/mono/blob/master/mcs/tools/csharp/getline.cs).
+
+> I recently updated getline.cs to add a popup-based completion and C# heuristics for when to automatically trigger code completion.
+
+Mon Feb 20 18:33:39 2017 +0100
+
 ## [The TTY demystified](http://www.linusakesson.net/programming/tty/)
 
 > The TTY subsystem is central to the design of Linux, and UNIX in general. Unfortunately, its importance is often overlooked, and it is difficult to find good introductory articles about it. I believe that a basic understanding of TTYs in Linux is essential for the developer and the advanced user.
