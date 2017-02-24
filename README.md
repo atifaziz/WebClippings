@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Making Money Using Math](http://queue.acm.org/detail.cfm?id=3055303)
+
+> Modern applications are increasingly using probabilistic machine-learned models
+
+> Machine learning, or ML, is all the rage today, and there are good reasons for that. Models created by machine-learning algorithms for problems such as spam filtering, speech and image recognition, language translation, and text understanding have many advantages over code written by human developers. Machine learning, however, is not as magical as it sounds at first. In fact, it is rather analogous to how human developers create code using test-driven development.
+
+Tags: `math`, `ml`, `ai`, `fp`, `cs`
+
+Fri Feb 24 16:44:58 2017 +0100
+
 ## [getline.cs update: Partying like it is 1992](http://tirania.org/blog/archive/2016/Jan-14.html)
 
 > Back in 2008, I wrote about `getline.cs`, a single-file command line editor for shell application. It included Emacs key bindings, history, customizable completion and incremental search. It is equivalent to GNU's readline library, except it is implemented in a [single C# file](https://github.com/mono/mono/blob/master/mcs/tools/csharp/getline.cs).
