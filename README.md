@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Locks and exceptions do not mix](https://blogs.msdn.microsoft.com/ericlippert/2009/03/06/locks-and-exceptions-do-not-mix/)
+
+> A couple years ago I wrote a bit about how our codegen for the lock statement could sometimes lead to situations in which an unoptimized build had [different potential deadlocks](http://blogs.msdn.com/ericlippert/archive/2007/08/17/subtleties-of-c-il-codegen.aspx) than an optimized build of the same source code. This is unfortunate, so we’ve fixed that for C# 4.0. However, all is still not [rainbows, unicorns and Obama](http://iamchriscollins.com/badpaintingsofbarackobama/images/4.jpg), as we’ll see.
+
+Tags: `c#`, `threading`
+
+Tue Mar 07 15:06:54 2017 +0100
+
 ## [Anonymous Recursion in C#](https://blogs.msdn.microsoft.com/wesdyer/2007/02/02/anonymous-recursion-in-c/)
 
 > [Recursion](http://en.wikipedia.org/wiki/Recursion) is beautiful and [lambdas](http://en.wikipedia.org/wiki/Lambda_calculus) are the ultimate abstraction.  But how can they be used together?  Lambdas are anonymous functions and recursion requires names
