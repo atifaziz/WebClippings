@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Anonymous Recursion in C#](https://blogs.msdn.microsoft.com/wesdyer/2007/02/02/anonymous-recursion-in-c/)
+
+> [Recursion](http://en.wikipedia.org/wiki/Recursion) is beautiful and [lambdas](http://en.wikipedia.org/wiki/Lambda_calculus) are the ultimate abstraction.  But how can they be used together?  Lambdas are anonymous functions and recursion requires names
+
+Tags: `c#`, `fp`
+
+Tue Mar 07 09:44:19 2017 +0100
+
 ## [Making Money Using Math](http://queue.acm.org/detail.cfm?id=3055303)
 
 > Modern applications are increasingly using probabilistic machine-learned models
