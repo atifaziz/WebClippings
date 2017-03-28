@@ -4,6 +4,21 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Dissecting the `new()` constraint in C#: a perfect example of a leaky abstraction](https://blogs.msdn.microsoft.com/seteplia/2017/02/01/dissecting-the-new-constraint-in-c-a-perfect-example-of-a-leaky-abstraction/)
+
+> This is a fairly long post, but we managed to cover many interesting details.
+>
+> - The `new()` constraint in the C# language is extremely leaky: in order to use it correctly and efficiently the developer should understand the implementation details of the compiler and the BCL.
+> - We've figured out that the C# compiler calls `Activator.CreateInstance<T> for creating an instance of a generic argument with a `new()` constraint (but remember, this is true only for C# 6+ compilers and the older versions emit the call only for reference types).
+> - We've discovered the implications of the Activator.CreateInstance from a developer's point of view in terms of correctness and performance.
+> - We've come up with a few alternatives, starting with a very simple one that _unwraps_ TargetInvocationException, to a fairly sophisticated solution based on code generation.
+> - We've discussed a few interesting aspects of the generics implementation in the CLR and their impact on the performance (very minor, and likely negligible in the vast majority of cases).
+> - And finally, we've come up with a solution that can solve aforementioned issues with the `new()` constrained by using the custom `System.Activator.CreateInstance<T>` implementation.
+
+Tags: `dotnet`, `c#`, `performance`
+
+Tue Mar 28 17:05:58 2017 +0200
+
 ## [Locks and exceptions do not mix](https://blogs.msdn.microsoft.com/ericlippert/2009/03/06/locks-and-exceptions-do-not-mix/)
 
 > A couple years ago I wrote a bit about how our codegen for the lock statement could sometimes lead to situations in which an unoptimized build had [different potential deadlocks](http://blogs.msdn.com/ericlippert/archive/2007/08/17/subtleties-of-c-il-codegen.aspx) than an optimized build of the same source code. This is unfortunate, so we’ve fixed that for C# 4.0. However, all is still not [rainbows, unicorns and Obama](http://iamchriscollins.com/badpaintingsofbarackobama/images/4.jpg), as we’ll see.
