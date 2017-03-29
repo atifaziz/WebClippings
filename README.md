@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How to retrieve indexed source files of a portable executable binary file](https://support.microsoft.com/en-us/help/3195907/how-to-retrieve-indexed-source-files-of-a-portable-executable-binary-file)
+
+> This article describes how to retrieve the indexed source files of a portable executable (PE) binary file from source control by using information that's stored in the PE binary file's pairing program database (PDB) file. Because the indexed source files have their hash values embedded in the PDB file, these hash values can be used to verify the authenticity of the source files during their retrieval. 
+
+Tags: `mskb`, `debugging`
+
+Wed Mar 29 23:26:41 2017 +0200
+
 ## [Dissecting the `new()` constraint in C#: a perfect example of a leaky abstraction](https://blogs.msdn.microsoft.com/seteplia/2017/02/01/dissecting-the-new-constraint-in-c-a-perfect-example-of-a-leaky-abstraction/)
 
 > This is a fairly long post, but we managed to cover many interesting details.
