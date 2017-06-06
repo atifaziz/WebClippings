@@ -17,9 +17,9 @@ Wed Mar 29 23:26:41 2017 +0200
 > This is a fairly long post, but we managed to cover many interesting details.
 >
 > - The `new()` constraint in the C# language is extremely leaky: in order to use it correctly and efficiently the developer should understand the implementation details of the compiler and the BCL.
-> - We've figured out that the C# compiler calls `Activator.CreateInstance<T> for creating an instance of a generic argument with a `new()` constraint (but remember, this is true only for C# 6+ compilers and the older versions emit the call only for reference types).
-> - We've discovered the implications of the Activator.CreateInstance from a developer's point of view in terms of correctness and performance.
-> - We've come up with a few alternatives, starting with a very simple one that _unwraps_ TargetInvocationException, to a fairly sophisticated solution based on code generation.
+> - We've figured out that the C# compiler calls `Activator.CreateInstance<T>` for creating an instance of a generic argument with a `new()` constraint (but remember, this is true only for C# 6+ compilers and the older versions emit the call only for reference types).
+> - We've discovered the implications of the `Activator.CreateInstance` from a developer's point of view in terms of correctness and performance.
+> - We've come up with a few alternatives, starting with a very simple one that _unwraps_ `TargetInvocationException`, to a fairly sophisticated solution based on code generation.
 > - We've discussed a few interesting aspects of the generics implementation in the CLR and their impact on the performance (very minor, and likely negligible in the vast majority of cases).
 > - And finally, we've come up with a solution that can solve aforementioned issues with the `new()` constrained by using the custom `System.Activator.CreateInstance<T>` implementation.
 
