@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [RFC 7806: Problem Details for HTTP APIs](https://tools.ietf.org/html/rfc7807)
+
+> This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response to avoid the need to define new error response formats for HTTP APIs.
+
+Tags: `http`, `http-api`, `json`, `diagnostics`, `rfc`
+
+Thu Sep 21 13:09:22 2017 +0200
+
 ## [Zero Garbage Collector for .NET Core](http://tooslowexception.com/zero-garbage-collector-for-net-core/)
 
 > Starting from .NET Core 2.0 coupling between Garbage Collector and the Execution Engine itself have been loosened. Prior to this version, the Garbage Collector code was pretty much tangled with the rest of the CoreCLR code. However, [Local GC initiative](https://github.com/dotnet/coreclr/projects/3) in version 2.0 is already mature enough to start using it. The purpose of the exercise we are going to do is to **prepare Zero Garbage Collector that replaces the default one**.
