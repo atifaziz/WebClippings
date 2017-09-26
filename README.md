@@ -4,6 +4,12 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Functional C# (5) Local Function and Closure](https://weblogs.asp.net/dixin/functional-csharp-local-function-and-closure)
+
+Tags: `c#`
+
+Tue Sep 26 17:04:33 2017 +0200
+
 ## [RFC 7806: Problem Details for HTTP APIs](https://tools.ietf.org/html/rfc7807)
 
 > This document defines a "problem detail" as a way to carry machine-readable details of errors in a HTTP response to avoid the need to define new error response formats for HTTP APIs.
