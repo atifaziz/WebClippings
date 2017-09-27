@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Why are there so many implementations of Object Pooling in Roslyn?](https://stackoverflow.com/a/30736257/6682)
+
+> I'm the lead for the Roslyn performance v-team. All object pools are designed to reduce the allocation rate and, therefore, the frequency of garbage collections. This comes at the expense of adding long-lived (gen 2) objects. This helps compiler throughput slightly but the major effect is on Visual Studio responsiveness when using the VB or C# IntelliSense.
+
+Tags: `c#`, `roslyn`, `memory`
+
+Wed Sep 27 23:09:00 2017 +0200
+
 ## [Functional C# (5) Local Function and Closure](https://weblogs.asp.net/dixin/functional-csharp-local-function-and-closure)
 
 Tags: `c#`
