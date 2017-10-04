@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Better bitmap performance with Roaring bitmaps](https://arxiv.org/pdf/1402.6407.pdf)
+
+> Bitmap indexes are commonly used in databases and search engines. By exploiting bit-level parallelism, they can significantly accelerate queries. However, they can use much memory, and thus we might prefer compressed bitmap indexes. Following Oracle's lead, bitmaps are often compressed using run-length encoding (RLE). Building on prior work, we introduce the Roaring compressed bitmap format: it uses packed arrays for compression instead of RLE. We compare it to two high-performance RLE-based bitmap encoding techniques: WAH (Word Aligned Hybrid compression scheme) and Concise (Compressed _n_ Composable Integer Set). On synthetic and real data, we find that Roaring bitmaps (1) often compress significantly better (e.g., 2x) and (2) are faster than the compressed alternatives (up to 900x faster for intersections). Our results challenge the view that RLE-based bitmap compression is best.
+
+Tags: `performance`, `pdf`
+
+Wed Oct 04 10:11:01 2017 +0200
+
 ## [Why are there so many implementations of Object Pooling in Roslyn?](https://stackoverflow.com/a/30736257/6682)
 
 > I'm the lead for the Roslyn performance v-team. All object pools are designed to reduce the allocation rate and, therefore, the frequency of garbage collections. This comes at the expense of adding long-lived (gen 2) objects. This helps compiler throughput slightly but the major effect is on Visual Studio responsiveness when using the VB or C# IntelliSense.
