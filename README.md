@@ -4,6 +4,18 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+
+> 1. Separate subject from body with a blank line
+> 2. Limit the subject line to 50 characters
+> 3. Capitalize the subject line
+> 4. Do not end the subject line with a period
+> 5. Use the imperative mood in the subject line
+> 6. Wrap the body at 72 characters
+> 7. Use the body to explain what and why vs. how
+
+Tags: `git`
+
 ## [Yours, Mine and Ours](http://ericsink.com/articles/Yours_Mine_Ours.html)
 
 > I claim here that there are three categories of software:
