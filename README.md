@@ -24,6 +24,8 @@ Mon Oct 23 22:26:30 2017 +0200
 
 Tags: `git`
 
+Thu 19 Oct 07:55:12 2017 +0200
+
 ## [Yours, Mine and Ours](http://ericsink.com/articles/Yours_Mine_Ours.html)
 
 > I claim here that there are three categories of software:
