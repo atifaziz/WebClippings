@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
+
+> [The first post of the series](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf) focused on providing an overview of the engine, the runtime and the call stack. This second post will be diving into the internal parts of Google’s V8 JavaScript engine. 
+
+Tags: `javascript`, `optimization`, `performance`, `v8`
+
+Mon Oct 23 22:26:30 2017 +0200
+
 ## [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 > 1. Separate subject from body with a blank line
