@@ -4,6 +4,20 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [.NET Core and WinDbg](https://bret.codes/net-core-and-windbg/)
+
+> Recap:
+> 1. Add `windbg.exe` (the x64 version) to your path
+> 2. Set breakpoint(s) using `System.Diagnostics.Debugger.Break()`
+> 3. Launch with WinDbg attached via `windbg dotnet path\to\Your.dll`
+> 4. Enter `g` to go to your first breakpoint
+> 5. Load SOS via `.loadby sos coreclr`
+> 6. If you don't get symbols for your DLL, add `<DebugSymbols>true</DebugSymbols>` and `<DebugType>pdbonly</DebugType>` to your `.csproj` file and rebuild
+
+Tags: `.net`, `dotnet-core`, `windows`, `debugging`
+
+Tue Nov 07 19:39:00 2017 +0100
+
 ## [The Swiss Army Knife of Data Structures…in C#](https://dnovatchev.wordpress.com/2008/07/20/the-swiss-army-knife-of-data-structures-in-c/)
 
 > **My modest contribution** is what I believe to be the first **published** complete C# implementation of the Finger Tree data structure as originally defined in the paper by Hinze and Paterson (only a few exercises have not been implemented).
