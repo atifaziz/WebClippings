@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [The Swiss Army Knife of Data Structures…in C#](https://dnovatchev.wordpress.com/2008/07/20/the-swiss-army-knife-of-data-structures-in-c/)
+
+> **My modest contribution** is what I believe to be the first **published** complete C# implementation of the Finger Tree data structure as originally defined in the paper by Hinze and Paterson (only a few exercises have not been implemented).
+
+Tags: `c#`, `data-structures`
+
+Tue Nov 07 15:16:12 2017 +0100
+
 ## [Fast Deep Copy by Expression Trees (C#)](https://www.codeproject.com/Articles/1111658/Fast-Deep-Copy-by-Expression-Trees-C-Sharp)
 
 Deep copy is not implemented in C#, there is only function `Object.MemberwiseClone()` on each object and it creates just a shallow copy. This article brings code of a very fast deep copy function implemented by Expression Trees (Linq.Expressions).
