@@ -4,6 +4,19 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Five things everyone should know about Unicode](https://gojko.net/2017/11/07/five-things-about-unicode.html)
+
+> Unicode is an incredibly valuable standard, enabling everything from your computer to smartphones and watches to display the same message in the same way, all over the world. Unfortunately, its complexity makes it a gold mine for scammers and pranksters. 
+> 1. Many Unicode points are not visible
+> 2. Many code points look very similar
+> 3. Normalisation isn't that normal
+> 4. There is no relationship between screen display length and memory size
+> 5. Unicode is more than just passive data
+
+Tags: `unicode`
+
+Wed Nov 08 12:52:10 2017 +0100
+
 ## [.NET Core and WinDbg](https://bret.codes/net-core-and-windbg/)
 
 > Recap:
