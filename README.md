@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Blockchain: Under the Hood](https://www.thoughtworks.com/insights/blog/blockchain-under-hood)
+
+> Blockchain is increasingly mentioned in various business circles, but people often lack a concrete understanding of what it is, particularly when it comes to its underlying technology.
+>
+> This article is the first of two which will focus on blockchain from a technical perspective. In this piece, we explore what blockchain is for those who have heard of it, and would like to know how it actually works and why it’s important. Next, we will showcase how we applied the blockchain methodology in a proof of concept with a Global Financial Services organization.
+
+Tags: `blockchain`
+
+Wed Dec 06 13:38:50 2017 +0100
+
 ## [Five things everyone should know about Unicode](https://gojko.net/2017/11/07/five-things-about-unicode.html)
 
 > Unicode is an incredibly valuable standard, enabling everything from your computer to smartphones and watches to display the same message in the same way, all over the world. Unfortunately, its complexity makes it a gold mine for scammers and pranksters. 
