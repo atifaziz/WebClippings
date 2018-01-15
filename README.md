@@ -4,6 +4,20 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Extending the async methods in C#](https://blogs.msdn.microsoft.com/seteplia/2018/01/11/extending-the-async-methods-in-c/)
+
+> In the [previous blog post](https://blogs.msdn.microsoft.com/sources/GitHub/DissectingTheCode/posts/2018/blogs.msdn.microsoft.com/seteplia/2017/11/30/dissecting-the-async-methods-in-c/) we discussed how the C# compiler transforms asynchronous methods. In this post, we'll focus on extensibility points the C# compiler provides for customizing the behavior of async methods.
+>
+> There are 3 ways how you can control the async method's machinery:
+>
+> - Provide your own async method builder in the System.Runtime.CompilerServices namespace.
+> - Use custom task awaiters.
+> - Define your own task-like types.
+
+Tags: `c#`, `async`
+
+Mon Jan 15 08:37:42 2018 +0100
+
 ## [Blockchain: Under the Hood](https://www.thoughtworks.com/insights/blog/blockchain-under-hood)
 
 > Blockchain is increasingly mentioned in various business circles, but people often lack a concrete understanding of what it is, particularly when it comes to its underlying technology.
