@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [With dot net sockets and overlapped I/O you see a spike in memory in your application](https://support.microsoft.com/en-us/help/947862/with-dot-net-sockets-and-overlapped-i-o-you-see-a-spike-in-memory-in-y)
+
+> If you have written a .NET library and if your .NET library allows Asynchronous IO with dot net sockets (Socket.BeginSend / Socket.BeginReceive / NetworkStream.BeginRead / NetworkStream.BeginWrite) and if the calling application makes Asynchronous IO calls to the same client multiple times then you might see a heap fragmentation and private byte increase if the remote client stops its end of I/O.
+
+Tags: `sockets`, `network`, `.net`, `mskb`
+
+Wed Jan 31 14:22:23 2018 +0100
+
 ## [It's The Future](https://circleci.com/blog/its-the-future/)
 
 > ...
