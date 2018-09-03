@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Deep-dive into .NET Core primitives, part 2: the shared framework](https://natemcmaster.com/blog/2018/08/29/netcore-primitives-2/)
+
+> Shared frameworks have been an essential part of .NET Core since 1.0. ASP.NET Core shipped as a shared framework for the first time in 2.1. You may not have noticed if things are working smoothly, but there have been [some](https://github.com/aspnet/Home/issues/3241) [bumps](https://github.com/aspnet/Universe/issues/1180) and [ongoing discussion](https://github.com/aspnet/Home/issues/3292) about its design. In this post, I will dive deep into the shared frameworks and talk about some common developer pitfalls.
+
+Tags: `.net`
+
+Mon Sep 03 10:31:46 2018 +02:00
+
 ## [Deep-dive into .NET Core primitives: deps.json, runtimeconfig.json, and dll's](https://natemcmaster.com/blog/2017/12/21/netcore-primitives/)
 
 > I learned to program with gcc, C++, and vim. When I started working with C# and .NET, clicking the “Start” button in Visual Studio was magical, but also dissatisfying. Dissatisfying – not because I want to write a Makefile – but because I didn’t know what “Start” did. So, I started to dig. In this post, I’ll show the most primitive tools used in .NET Core, and manually create a .NET Core app **without the help of Visual Studio**.
