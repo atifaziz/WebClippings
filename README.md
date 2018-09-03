@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Deep-dive into .NET Core primitives: deps.json, runtimeconfig.json, and dll's](https://natemcmaster.com/blog/2017/12/21/netcore-primitives/)
+
+> I learned to program with gcc, C++, and vim. When I started working with C# and .NET, clicking the “Start” button in Visual Studio was magical, but also dissatisfying. Dissatisfying – not because I want to write a Makefile – but because I didn’t know what “Start” did. So, I started to dig. In this post, I’ll show the most primitive tools used in .NET Core, and manually create a .NET Core app **without the help of Visual Studio**.
+
+Tags: `.net`
+
+Mon Sep 03 10:29:11 2018 +02:00
+
 ## [With dot net sockets and overlapped I/O you see a spike in memory in your application](https://support.microsoft.com/en-us/help/947862/with-dot-net-sockets-and-overlapped-i-o-you-see-a-spike-in-memory-in-y)
 
 > If you have written a .NET library and if your .NET library allows Asynchronous IO with dot net sockets (Socket.BeginSend / Socket.BeginReceive / NetworkStream.BeginRead / NetworkStream.BeginWrite) and if the calling application makes Asynchronous IO calls to the same client multiple times then you might see a heap fragmentation and private byte increase if the remote client stops its end of I/O.
