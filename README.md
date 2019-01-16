@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [REST vs. GraphQL: A Critical Review](https://blog.goodapi.co/rest-vs-graphql-a-critical-review-5f77392658e7)
+
+> Are you building an API?
+>
+> Here is the idea: If you have never heard about the REST architectural style constraints and their implication on the properties of the resulting distributed system and you do not want to (or can’t) educate yourself, use GraphQL.
+
+Tags: `http`, `rest`, `api`, `design`, `graphql`
+
 ## [Deep-dive into .NET Core primitives, part 2: the shared framework](https://natemcmaster.com/blog/2018/08/29/netcore-primitives-2/)
 
 > Shared frameworks have been an essential part of .NET Core since 1.0. ASP.NET Core shipped as a shared framework for the first time in 2.1. You may not have noticed if things are working smoothly, but there have been [some](https://github.com/aspnet/Home/issues/3241) [bumps](https://github.com/aspnet/Universe/issues/1180) and [ongoing discussion](https://github.com/aspnet/Home/issues/3292) about its design. In this post, I will dive deep into the shared frameworks and talk about some common developer pitfalls.
