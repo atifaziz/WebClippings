@@ -4,6 +4,12 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
+
+> Monad, applicative functor, and functor are just functional programming patterns you can use to deal with effects like lists/arrays, trees, hashes/dictionaries, and even functions.
+
+Tags: `fp`
+
 ## [REST vs. GraphQL: A Critical Review](https://blog.goodapi.co/rest-vs-graphql-a-critical-review-5f77392658e7)
 
 > Are you building an API?
