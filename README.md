@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Understanding the Whys, Whats, and Whens of `ValueTask`](https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/)
+
+> The .NET Framework 4 saw the introduction of the `System.Threading.Tasks` namespace, and with it the `Task` class. This type and the derived `Task<TResult>` have long since become a staple of .NET programming, key aspects of the asynchronous programming model introduced with C# 5 and its `async`/`await` keywords. In this post, I’ll cover the newer `ValueTask`/`ValueTask<TResult>` types, which were introduced to help improve asynchronous performance in common use cases where decreased allocation overhead is important.
+
+Tags: `tpl`, `async`, `perf`
+
+Mon Jul 08 11:05:58 2019 +02:00
+
 ## [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
 
 > Monad, applicative functor, and functor are just functional programming patterns you can use to deal with effects like lists/arrays, trees, hashes/dictionaries, and even functions.
