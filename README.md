@@ -4,6 +4,25 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [LIRQ — Language Integrated Reflection Queries](https://medium.com/@mikhail.barash.mikbar/lirq-language-integrated-reflection-queries-19884f483ede)
+
+> [Language Integrated Query (LINQ)](https://en.wikipedia.org/wiki/Language_Integrated_Query) is an extension to Microsoft .NET languages that provides _query expressions_ that can be used to extract and process data from collections (for example, arrays, lists, dictionaries).
+>
+> Concrete syntax of query expressions resembles SQL statements:
+>
+>    IEnumerable<Person> query;
+>    query = from p in Persons where p.age > 90 select p;
+>
+> In this post, I will introduce query expressions for [program introspection](https://en.wikipedia.org/wiki/Reflection_(computer_programming)) in object-oriented languages. For example, query
+>
+>    { field, in class <T>, <T> extends MyClass, of type int }
+>
+> yields all integer fields declared in subclasses of `MyClass`.
+
+Tags: `linq`, `reflection`
+
+Tue Jul 16 13:29:31 2019 +0200
+
 ## [Understanding the Whys, Whats, and Whens of `ValueTask`](https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/)
 
 > The .NET Framework 4 saw the introduction of the `System.Threading.Tasks` namespace, and with it the `Task` class. This type and the derived `Task<TResult>` have long since become a staple of .NET programming, key aspects of the asynchronous programming model introduced with C# 5 and its `async`/`await` keywords. In this post, I’ll cover the newer `ValueTask`/`ValueTask<TResult>` types, which were introduced to help improve asynchronous performance in common use cases where decreased allocation overhead is important.
