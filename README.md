@@ -4,6 +4,20 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [.NET Core Plugins](https://natemcmaster.com/blog/2018/07/25/netcore-plugins/)
+
+> I recently [published](https://nuget.org/packages/McMaster.NETCore.Plugins) a new package for .NET Core developers that want to implement a plugin system. Dynamic assembly loading in .NET Core is difficult to get right. The API in this package wrangles the complexity through a feature called ‘load contexts’. In this post, I’ll walk through problems that motivated the creation of this project, and explain what the API can do. My hope is that this plugin API will let you focus more on writing your app, and put an end to the inevitable mess of creating your own assembly loading code.
+>
+> TL;DR?
+>
+> - the ~~the~~[project source is visible on GitHub](https://github.com/natemcmaster/DotNetCorePlugins)
+> - the package is on NuGet.org. [McMaster.NETCore.Plugins](https://nuget.org/packages/McMaster.NETCore.Plugins), v0.1.0.
+> - a complete [code sample is available here](https://github.com/natemcmaster/DotNetCorePlugins/tree/v0.1.0/samples/aspnetcore).
+
+Tags: `dotnet`
+
+Tue Jul 23 11:01:15 2019 +0200
+
 ## [LIRQ — Language Integrated Reflection Queries](https://medium.com/@mikhail.barash.mikbar/lirq-language-integrated-reflection-queries-19884f483ede)
 
 > [Language Integrated Query (LINQ)](https://en.wikipedia.org/wiki/Language_Integrated_Query) is an extension to Microsoft .NET languages that provides _query expressions_ that can be used to extract and process data from collections (for example, arrays, lists, dictionaries).
