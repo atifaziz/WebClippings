@@ -4,6 +4,18 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## VBScript controls blocked in Office 365 client applications
+
+> For security reasons, new builds of Microsoft Office for Office 365 on Windows block activation of VBScript controls. Most users won't be impacted, but some users may see this runtime error when they try to use an add-in or VBA solution that depends on VBScript: 
+>
+>    '380' - 'A script engine for the specified language cannot be created.' 
+>
+> There are two ways you can unblock these controls. The first is by downloading a small package of registry keys. The second, by manually editing the registry yourself.
+
+Tags: `office`, `vbs`, `vba`
+
+Fri Aug 30 12:19:30 2019 +0200
+
 ## [.NET Core Plugins](https://natemcmaster.com/blog/2018/07/25/netcore-plugins/)
 
 > I recently [published](https://nuget.org/packages/McMaster.NETCore.Plugins) a new package for .NET Core developers that want to implement a plugin system. Dynamic assembly loading in .NET Core is difficult to get right. The API in this package wrangles the complexity through a feature called ‘load contexts’. In this post, I’ll walk through problems that motivated the creation of this project, and explain what the API can do. My hope is that this plugin API will let you focus more on writing your app, and put an end to the inevitable mess of creating your own assembly loading code.
