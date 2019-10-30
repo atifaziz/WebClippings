@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## The .NET Process class on Linux
+
+> In this article, we’ll look at .NET’s [`Process`](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=netcore-3.0) class. We’ll go over the basics of how and when to use it, then cover differences in usage between Windows and Linux, and point out a few caveats. This article covers behavior in [.NET Core 3.0](https://developers.redhat.com/blog/2019/10/17/new-features-in-net-core-3-0-on-linux/).
+
+Tags: `linux`, `.net`
+
+Wed Oct 30 13:05:07 2019 +0100
+
 ## VBScript controls blocked in Office 365 client applications
 
 > For security reasons, new builds of Microsoft Office for Office 365 on Windows block activation of VBScript controls. Most users won't be impacted, but some users may see this runtime error when they try to use an add-in or VBA solution that depends on VBScript: 
