@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Unpacking Git packfiles](https://codewords.recurse.com/issues/three/unpacking-git-packfiles)
+
+> While working on [Gitgo](https://github.com/ChimeraCoder/gitgo/), an implementation of Git in pure Go, I encountered a puzzling issue. Gitgo tests its own dogfood, which means the tests for parsing objects use the git repository for Gitgo itself. This worked fine for a few days, until my pairing partner wanted to work on his computer instead of mine. I pushed the code to a remote repository so he could check it out, and we immediately noticed that all of the tests suddenly started failing on both of our computers, complaining that the commit objects did not exist. Sure enough, the commits were missing from `.git/objects/`. And yet, we were both still able to check out the supposedly missing commits on our machines using Git. What was going wrong?
+>
+> The commit objects were there, but they were stored in a different location, as _packfiles_.
+
+Tags: `git`, `vcs`
+
+Mon Jan 20 10:27:21 2020 +0100
+
 ## The .NET Process class on Linux
 
 > In this article, we’ll look at .NET’s [`Process`](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=netcore-3.0) class. We’ll go over the basics of how and when to use it, then cover differences in usage between Windows and Linux, and point out a few caveats. This article covers behavior in [.NET Core 3.0](https://developers.redhat.com/blog/2019/10/17/new-features-in-net-core-3-0-on-linux/).
