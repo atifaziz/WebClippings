@@ -4,6 +4,12 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Node.js: How even quick async functions can block the Event-Loop, starve I/O](https://medium.com/@michael.gokhman/nodejs-how-even-quick-async-functions-can-block-the-event-loop-starve-io-8c416d76daa3)
+
+> Yet another article about the Node.js Event-Loop
+
+Sat Mar 28 18:32:50 2020 +0100
+
 ## [Unpacking Git packfiles](https://codewords.recurse.com/issues/three/unpacking-git-packfiles)
 
 > While working on [Gitgo](https://github.com/ChimeraCoder/gitgo/), an implementation of Git in pure Go, I encountered a puzzling issue. Gitgo tests its own dogfood, which means the tests for parsing objects use the git repository for Gitgo itself. This worked fine for a few days, until my pairing partner wanted to work on his computer instead of mine. I pushed the code to a remote repository so he could check it out, and we immediately noticed that all of the tests suddenly started failing on both of our computers, complaining that the commit objects did not exist. Sure enough, the commits were missing from `.git/objects/`. And yet, we were both still able to check out the supposedly missing commits on our machines using Git. What was going wrong?
