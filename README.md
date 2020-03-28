@@ -8,6 +8,8 @@ Following is personal collection of mostly software-related articles and downloa
 
 > Yet another article about the Node.js Event-Loop
 
+Tags: `node`, `io`, `async`
+
 Sat Mar 28 18:32:50 2020 +0100
 
 ## [Unpacking Git packfiles](https://codewords.recurse.com/issues/three/unpacking-git-packfiles)
