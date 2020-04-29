@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [HTTP Status Codes Decision Diagram - Infographic](https://www.loggly.com/blog/http-status-code-diagram/)
+
+> An activity diagram to describe the resolution of HTTP response status codes, given various methods and headers, implemented via semantical callbacks.
+
+Tags: `http`
+
+Wed Apr 29 10:00:54 2020 +0200
+
 ## [Node.js: How even quick async functions can block the Event-Loop, starve I/O](https://medium.com/@michael.gokhman/nodejs-how-even-quick-async-functions-can-block-the-event-loop-starve-io-8c416d76daa3)
 
 > Yet another article about the Node.js Event-Loop
