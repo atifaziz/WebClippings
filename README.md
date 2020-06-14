@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Using Regular Expressions for Lexical Analysis](http://effbot.org/zone/xml-scanner.htm)
+
+> A scanner reads an input string (e.g. program code) and groups the characters into lexical units, such as keywords and integer literals. Scanners are also known as lexical analysers, or tokenizers.
+>
+> Regular expressions provide an easy and quite powerful tool for writing simple scanners.
+
+Tags: `lex`
+
+Sun Jun 14 12:07:55 2020 +0200
+
 ## [HTTP Status Codes Decision Diagram - Infographic](https://www.loggly.com/blog/http-status-code-diagram/)
 
 > An activity diagram to describe the resolution of HTTP response status codes, given various methods and headers, implemented via semantical callbacks.
