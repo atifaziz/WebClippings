@@ -4,6 +4,20 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Types in Programming Languages, between Modelling, Abstraction, and Correctness](https://hal.inria.fr/hal-01335657/document)
+
+> The history of computer science is innervated by the continuous tension between formal beauty and technological effectiveness. Types in programming languages
+are an evident example of this dialectics. They are introduced for a better verification of the correctness of programs, and yet—contrary to mathematical logic—
+they must be experienced by the working programmer as an enabling feature, allowing for simpler writing of programs.
+>
+> In its formal approach, computer science never used ideological glasses (types per se; constructive mathematics per se; linear logic per se; etc.), but exploited
+what it found useful for the design of more elegant, economical, usable artifacts. This eclecticism (or even anarchism, in the sense of epistemological theory) is
+one of the distinctive traits of the discipline, and one of the reasons of its success.
+
+Tags: `types`, `adt`, `history`, `pdf`
+
+Sat Jul 24 14:00:33 2021 +02:00
+
 ## [Using Regular Expressions for Lexical Analysis](http://effbot.org/zone/xml-scanner.htm)
 
 > A scanner reads an input string (e.g. program code) and groups the characters into lexical units, such as keywords and integer literals. Scanners are also known as lexical analysers, or tokenizers.
