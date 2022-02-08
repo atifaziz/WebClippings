@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Stackless Scala With Free Monads](https://blog.higher-order.com/assets/trampolines.pdf)
+
+> Tail call elimination (TCE) in the Scala compiler is limited to self-recursive methods, but tail calls are otherwise not eliminated. This makes functions composed of many smaller functions prone to stack overflows. Having a general TCE mechanism would be a great benefit in Scala, particularly for functional programming. Trampolining is a popular technique, which can be used for TCE in languages that don't support it natively. This paper gives an introduction to trampolines in Scala and expands on this solution to gain elimination of any method call whatsoever, even calls that are not in tail position at all. This obviates altogether the use of the call stack in Scala programs.
+
+Tags: `scala`, `fp`, `monad`, `coroutine`
+
+Tue, 08 Feb 2022 08:28:43 +01:00
+
 ## [Types in Programming Languages, between Modelling, Abstraction, and Correctness](https://hal.inria.fr/hal-01335657/document)
 
 > The history of computer science is innervated by the continuous tension between formal beauty and technological effectiveness. Types in programming languages
