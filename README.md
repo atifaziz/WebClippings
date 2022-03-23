@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [C# ReadOnlySpan and static data](https://vcsjones.dev/csharp-readonly-span-bytes-static/)
+
+> Since C# 7 there have been a lot of point releases that contain all kinds of goodies. Many of them are performance focused, such as safe stack allocations using `Span<T>`, or interoperability with improvements to fixed.
+>
+> One that I love, but is not documented well, is some special treatment that `ReadOnlySpan<byte>` gets when its contents are known at compile time.
+
+Tags: `c#`
+
+Wed, 23 Mar 2022 18:18:00 +01:00
+
 ## [Stackless Scala With Free Monads](https://blog.higher-order.com/assets/trampolines.pdf)
 
 > Tail call elimination (TCE) in the Scala compiler is limited to self-recursive methods, but tail calls are otherwise not eliminated. This makes functions composed of many smaller functions prone to stack overflows. Having a general TCE mechanism would be a great benefit in Scala, particularly for functional programming. Trampolining is a popular technique, which can be used for TCE in languages that don't support it natively. This paper gives an introduction to trampolines in Scala and expands on this solution to gain elimination of any method call whatsoever, even calls that are not in tail position at all. This obviates altogether the use of the call stack in Scala programs.
