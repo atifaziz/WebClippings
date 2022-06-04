@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Generic `impl` blocks are kinda like macros…](https://dev.to/somedood/generic-impl-blocks-are-kinda-like-macros-1aa0)
+
+> Similar to most object-oriented programming languages, Rust has language-level features that enable polymorphism.1 This is mainly achieved through the trait system, which is basically Rust's take on [Java's interfaces](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) and [C++'s abstract classes](https://en.cppreference.com/w/cpp/language/abstract_class).
+>
+> Although they all enable polymorphism, Rust's trait system is arguably more powerful because of its macro-like capabilities. In this article, we will discuss how traits, generic `impl` blocks, and the type system enable us to write expressive polymorphic code in Rust. Along the way, we will explore how treating generic `impl` blocks like macros can be a powerful shift in perspective when dealing with generics and trait bounds.
+
+Tags: `rust`
+
+Sat, 04 Jun 2022 13:10:53 +02:00
+
 ## [Optimizing Immutable Strings in Rust](https://dev.to/somedood/optimizing-immutable-strings-in-rust-2ahj)
 
 > Rust, Go, and C++ programmers alike have a particular aversion to heap allocations and cloned data. As much as possible, variables are allocated locally (in the stack) so that there is no need for extra dynamic memory.1 In other words, we often go above and beyond to ensure that we only allocate when _absolutely_ necessary.
