@@ -4,6 +4,16 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Optimizing Immutable Strings in Rust](https://dev.to/somedood/optimizing-immutable-strings-in-rust-2ahj)
+
+> Rust, Go, and C++ programmers alike have a particular aversion to heap allocations and cloned data. As much as possible, variables are allocated locally (in the stack) so that there is no need for extra dynamic memory.1 In other words, we often go above and beyond to ensure that we only allocate when _absolutely_ necessary.
+>
+`> In this article, we will discuss certain ways to optimize the way we allocate and clone data in _immutable_ contexts. Throughout this article, we will be using the String` type as a particular example, but _please do keep in mind that the concepts are generally applicable elsewhere_.
+
+Tags: `rust`
+
+Sat, 04 Jun 2022 12:41:06 +02:00
+
 ## [Allocations are good, actually](https://spacekookie.de/blog/allocations-are-good-actually/)
 
 > Something that you can often hear in the Rust community, especially from people who were previously C or C++ developers, is the adage "allocations are slow".
