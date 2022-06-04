@@ -4,6 +4,20 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Allocations are good, actually](https://spacekookie.de/blog/allocations-are-good-actually/)
+
+> Something that you can often hear in the Rust community, especially from people who were previously C or C++ developers, is the adage "allocations are slow".
+>
+> The other day a friend asked me how to create a consecutive list of numbers. I pointed her at `(0..).take(x).collect()` which can be made into a `Vec<_>`, with a number of her choice. It did made me think however about how this could be done much nicer in a allocation-free manner.
+>
+> LLVM is magic…
+>
+> … and saying "allocations are bad" really isn't telling the whole story.
+
+Tags: `rust`
+
+Sat, 04 Jun 2022 12:31:00 +02:00
+
 ## [C# ReadOnlySpan and static data](https://vcsjones.dev/csharp-readonly-span-bytes-static/)
 
 > Since C# 7 there have been a lot of point releases that contain all kinds of goodies. Many of them are performance focused, such as safe stack allocations using `Span<T>`, or interoperability with improvements to fixed.
