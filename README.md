@@ -106,7 +106,7 @@ Tags: `git`, `vcs`
 
 Mon Jan 20 10:27:21 2020 +0100
 
-## The .NET Process class on Linux
+## [The .NET Process class on Linux](https://developers.redhat.com/blog/2019/10/29/the-net-process-class-on-linux)
 
 > In this article, we’ll look at .NET’s [`Process`](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=netcore-3.0) class. We’ll go over the basics of how and when to use it, then cover differences in usage between Windows and Linux, and point out a few caveats. This article covers behavior in [.NET Core 3.0](https://developers.redhat.com/blog/2019/10/17/new-features-in-net-core-3-0-on-linux/).
 
@@ -114,7 +114,7 @@ Tags: `linux`, `.net`
 
 Wed Oct 30 13:05:07 2019 +0100
 
-## VBScript controls blocked in Office 365 client applications
+## [VBScript controls blocked in ~~Office~~Microsoft 365 client applications](https://support.microsoft.com/en-us/topic/vbscript-controls-blocked-in-microsoft-365-client-applications-8937ad5a-01a1-48d2-8595-910116907876?ui=en-us&rs=en-us&ad=us)
 
 > For security reasons, new builds of Microsoft Office for Office 365 on Windows block activation of VBScript controls. Most users won't be impacted, but some users may see this runtime error when they try to use an add-in or VBA solution that depends on VBScript: 
 >
