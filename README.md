@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Stop cherry-picking, start merging: Index](https://devblogs.microsoft.com/oldnewthing/20180323-01/?p=98325)
+
+> Here's an index to the "Stop cherry-picking, start merging" series that just completed, if that's the sort of thing you are into.
+
+Tags: `git`
+
+Tue, 04 Oct 2022 16:51:47 +02:00
+
 ## [Generic `impl` blocks are kinda like macros…](https://dev.to/somedood/generic-impl-blocks-are-kinda-like-macros-1aa0)
 
 > Similar to most object-oriented programming languages, Rust has language-level features that enable polymorphism.1 This is mainly achieved through the trait system, which is basically Rust's take on [Java's interfaces](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) and [C++'s abstract classes](https://en.cppreference.com/w/cpp/language/abstract_class).
