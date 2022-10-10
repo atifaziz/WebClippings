@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [[C#] Why function pointers can't be used on instance methods](https://minidump.net/c-why-function-pointers-cant-be-used-on-instance-methods-8a99fc99b040)
+
+> The consequence is that _it is not possible to reliably call a .NET method without knowing if it’s an instance or a static method_. And the function pointers specification does not provide (yet?) a way to convey this information. When invoking a `delegate* <MyClass, LargeStruct>`, because the function pointer assumes that the target function is a static method, it will give the return buffer as the first argument, whereas an instance method would expect it as the second argument. This is why we end up corrupting the memory in our `Getter` class.
+
+Tags: `clr`, `c#`, `.net`
+
+Mon, 10 Oct 2022 09:09:30 +02:00
+
 ## [Stop cherry-picking, start merging: Index](https://devblogs.microsoft.com/oldnewthing/20180323-01/?p=98325)
 
 > Here's an index to the "Stop cherry-picking, start merging" series that just completed, if that's the sort of thing you are into.
