@@ -4,6 +4,18 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Managed pointers, Span, ref struct, C#11 ref fields and the scoped keyword](https://blog.ndepend.com/managed-pointers-span-ref-struct-c11-ref-fields-and-the-scoped-keyword/)
+
+> The concept of managed pointer exists in the NET runtime and C# since the inception of the platform in the early 2000. Managed pointers belong mostly to the pointer world, which makes them well suited for performance critical scenarios. However unlike regular pointers, an extra care from the compiler and the runtime makes their usage safe.
+>
+> Only recently – from C# 7.0 (2017) to C# 11 (2022) – the .NET engineers improved the runtime and the language constructs around managed pointers to unleash their flexibility and performance gain. These improvements mostly rely in more expressions supporting the C# keyword `ref` dedicated to managed pointers.
+>
+> These new constructs around the keyword `ref` are often not well understood. Many articles talking about new `ref` stuff don’t event mention managed pointers. Only language design discussions (that are _de-facto_ quite verbose) and a few insider posts (that often have a narrow focus) capture the primary intention. Some sparse stackoverflow answers also contain interesting remarks. So I decided to write the present article to attempt to provide the whole story through code samples to illustrate these recent C# evolutions.
+
+Tags: `c#`
+
+Fri, 09 Dec 2022 11:26:31 +01:00
+
 ## [[C#] Why function pointers can't be used on instance methods](https://minidump.net/c-why-function-pointers-cant-be-used-on-instance-methods-8a99fc99b040)
 
 > The consequence is that _it is not possible to reliably call a .NET method without knowing if it’s an instance or a static method_. And the function pointers specification does not provide (yet?) a way to convey this information. When invoking a `delegate* <MyClass, LargeStruct>`, because the function pointer assumes that the target function is a static method, it will give the return buffer as the first argument, whereas an instance method would expect it as the second argument. This is why we end up corrupting the memory in our `Getter` class.
