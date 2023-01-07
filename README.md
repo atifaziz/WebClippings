@@ -4,6 +4,14 @@ Clip&middot;ping: _noun_ Something cut off or out, especially an item clipped fr
 
 Following is personal collection of mostly software-related articles and downloads that I have found useful and bookmarked for future reference:
 
+## [Local Async Executors and Why They Should be the Default](https://maciej.codes/2022-06-09-local-async.html)
+
+> The Original Sin of Rust async programming is making it multi-threaded by default. If premature optimization is the root of all evil, this is the mother of all premature optimizations, and it curses all your code with the unholy `Send + 'static`, or worse yet `Send + Sync + 'static`, which just _kills all the joy of actually writing Rust_.
+
+Tags: `rust`, `async`, `concurrency`, `threading`
+
+Sat, 07, Jan 2023 16:10:48 +01:00
+
 ## [Managed pointers, Span, ref struct, C#11 ref fields and the scoped keyword](https://blog.ndepend.com/managed-pointers-span-ref-struct-c11-ref-fields-and-the-scoped-keyword/)
 
 > The concept of managed pointer exists in the NET runtime and C# since the inception of the platform in the early 2000. Managed pointers belong mostly to the pointer world, which makes them well suited for performance critical scenarios. However unlike regular pointers, an extra care from the compiler and the runtime makes their usage safe.
